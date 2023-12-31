@@ -1,0 +1,27 @@
+{
+  "name": "tiktok",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.0.4",
+    "react": "18",
+    "react-dom": "18",
+    "react-icons": "4.12.0"
+  },
+  "devDependencies": {
+    "firebase": "latest",
+    "next-auth": "4.24.5",
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  }
+}

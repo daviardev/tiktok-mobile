@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'TikTokFont';
+  src: url(/fonts/TikTokFont-Bold.woff2) format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TikTokFont';
+  src: url(/fonts/TikTokFont-Regular.woff2) format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TikTokFont';
+  src: url(/fonts/TikTokFont-Semibold.woff2) format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'TikTokFont', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.wrapper {
+  width: 25vw;
+  height: 95vh;
+  padding: 30px 30px;
+  position: relative;
+  max-width: 500px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+  border-radius: 20px;
+  background-color: #111112;
+
+  & .content {
+    color: white;
+    z-index: 999;
+    position: relative;
+  }
+}
+
