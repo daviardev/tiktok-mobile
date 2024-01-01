@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Navbar from './components/Navbar'
 
 export default function MainLayout ({ title, children }) {
   return (
@@ -10,10 +11,11 @@ export default function MainLayout ({ title, children }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <div className='wrapper'>
-        <div className='content'>
+      <div className='container'>
+        <section className='section home_section'>
           {children}
-        </div>
+        </section>
+        <Navbar />
       </div>
     </>
   )
